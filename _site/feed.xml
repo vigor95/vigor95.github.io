@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vigor</title>
+    <description>Vigor&#39;s blog</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 27 Mar 2016 23:00:33 +0800</pubDate>
+    <lastBuildDate>Sun, 27 Mar 2016 23:00:33 +0800</lastBuildDate>
+    <generator>Jekyll v2.2.0</generator>
+    
+      <item>
+        <title>test</title>
+        <description>&lt;p&gt;Just for test.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def print_hi(name)
+  puts &quot;Hi, #{name}&quot;
+end
+print_hi(&#39;Tom&#39;)
+#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 27 Mar 2016 06:13:54 +0800</pubDate>
+        <link>/2016/03/27/test-code/</link>
+        <guid isPermaLink="true">/2016/03/27/test-code/</guid>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+  </channel>
+</rss>
