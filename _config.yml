@@ -1,8 +1,8 @@
 # Site settings
 title: Vigor's Blog 
-email: 
+email: 1995vigor@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
- Chasing...
+ Chasing... 
 baseurl: "/arctic-fox-theme" # the subpath of your site, e.g. /blog/
 url: "http://vigor95.github.io" # the base hostname & protocol for your site
 twitter_username: username
