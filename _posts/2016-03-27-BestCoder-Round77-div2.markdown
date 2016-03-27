@@ -137,3 +137,32 @@ int main() {
     return 0;
 }
 {% endhighlight %}
+
+# 1004 Bomber Man wants to bomb an Array.
+设dp[i]为前i个格子的最大总破坏指数，可以枚举所有j...i间有恰有一个炸弹的j，有：dp[i] = max(dp[i] * (i - j))。
+{% highlight cpp %}
+int main() {
+    int t;
+    scanf("%d", &t);
+    while (t--) {
+        scanf("%d %d", &n, &m);
+        int a[2005], sum[2005];
+        memset(a, 0, sizeof(a));
+        memset(sum, 0, sizeof(sum));
+        for (int x, i = 1; i <= m; i++) {
+            scanf("%d", &x);
+            a[min(x, n - 1) + 1] = 1;
+        }
+        long double dp[2005];
+        memset(dp, 0, sizeof(dp));
+        for (int i = 1; i <= n; i++) {
+            sum[i] = sum[i-1] + a[i];
+            for (int j = 0; j < i; j++)
+                if (sum[i] - sum[j] == 1)
+                    dp[i] = max(dp[i], dp[j] + log(double(i-j)) / log(2.0));
+        }
+        printf("%lld\n", (ll)floor(dp[n] * 1e6));
+    }
+    return 0;
+}
+{% endhighlight %}
